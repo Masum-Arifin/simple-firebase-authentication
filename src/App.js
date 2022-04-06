@@ -33,7 +33,7 @@ function App() {
       {
         user.email ? <button onClick={handleSignOut}>Sign out</button>
         :
-      <button onClick={handleGoogleSignIn}>Google Sign In</button>
+      // <button onClick={handleGoogleSignIn}>Google Sign In</button>
       
       } 
       <h2>Name: {user.displayName}</h2>
