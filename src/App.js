@@ -30,15 +30,15 @@ function App() {
   return (
     <div className="App">
       {/* { condition ? true : false} */}
-      {/* {
+      {
         user.email ? <button onClick={handleSignOut}>Sign out</button>
         :
       <button onClick={handleGoogleSignIn}>Google Sign In</button>
       
-      }  */}
-      {/* <h2>Name: {user.displayName}</h2>
+      } 
+      <h2>Name: {user.displayName}</h2>
       <h4>I know your email address: {user.email}</h4>
-      <img src={user.photoURL} alt="" /> */}
+      <img src={user.photoURL} alt="" />
     </div>
   );
 }
